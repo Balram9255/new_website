@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Contact Me</h1>
+
+      <p><strong>Address:</strong> IIT Delhi, Hauz Khas, New Delhi</p>
+      <p><strong>Phone:</strong> +91 9728366730</p>
+      <p><strong>Email:</strong> balram9255s@gmail.com</p>
+
+      <hr />
+
+      <h3>Send Me a Message</h3>
+
+      <form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="yourName" required /><br /><br />
+
+        <label for="email">Your Email:</label><br />
+        <input type="email" id="email" name="yourEmail" required /><br /><br />
+
+        <label for="date">Preferred Contact Date:</label><br />
+        <input type="date" id="date" name="contactDate" /><br /><br />
+
+        <label for="message">Your Message:</label><br />
+        <textarea id="message" name="yourMessage" rows="8" cols="40" required></textarea><br /><br />
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+  </body>
+</html>
